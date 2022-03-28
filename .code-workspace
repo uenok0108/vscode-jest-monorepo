@@ -1,0 +1,21 @@
+{
+  "folders": [
+    {
+      "name": "root",
+      "path": "."
+    },
+    {
+      "name": "client",
+      "path": "packages/client"
+    },
+    {
+      "name": "server",
+      "path": "packages/server"
+    }
+  ],
+  "settings": {
+    "jest.autoRun": "off",
+    "jest.jestCommandLine": "yarn test",
+    "jest.disabledWorkspaceFolders": ["root"]
+  }
+}
