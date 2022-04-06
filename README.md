@@ -1,15 +1,11 @@
 # vscode-jest-monorepo
 
-VSCodeの拡張機能「Jest」をmonorepo構成で利用する場合のサンプル。  
-本サンプルは
+This is sample project how to use Jest extension for VSCode with monorepo.
+For monorepo, this project uses `yarn workspace` and `turborepo`.
 
-- yarn workspace
-- turborepo
+## How to use
 
-にて構成しています。
-
-## 使い方
-
-1. VSCodeに[Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)の拡張機能をインストールする。  
-2. 本リポジトリをVSCode上で「Open Folder」から開くのではなく、「Open Workspace from File」で開く。  
-その際に本リポジトリに同梱されている `.code-workspace` ファイルを指定。
+1. Install [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest) extension to your VSCode.  
+2. Open this repository by `Open Workspace from File` with `.code-workspace` file that is included this project.
+(Not opening this project directly by `Open Folder`)
+3. You can run tests from VSCode runner.
